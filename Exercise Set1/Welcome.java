@@ -8,7 +8,7 @@ public class Welcome {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Welcome to CS211: Object\nEnter your name: "); 
         String name = scanner.nextLine();
-        System.out.println("This course will be fun, "+ name);
+        System.out.println("This course will be fun, "+ name +"!");
         scanner.close();
     } 
 }
