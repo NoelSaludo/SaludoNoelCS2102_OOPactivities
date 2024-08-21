@@ -20,5 +20,6 @@ public class Escseq {
                 System.out.println(i*7);
             }
         }
+        scanner.close();
     }
 }

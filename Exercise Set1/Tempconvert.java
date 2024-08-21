@@ -15,5 +15,6 @@ public class Tempconvert {
         float farenheit = (celsuis * 9)/5 + 32;
         String output = String.format("%.2f Celsius is %.2f in Farenheit", celsuis, farenheit);
         System.out.println(output);
+        scanner.close();
     } 
 }
