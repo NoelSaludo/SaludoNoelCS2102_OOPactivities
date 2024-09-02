@@ -18,5 +18,6 @@ public class GettingGreater {
         System.out.println("Showing the ASCII Codes");
         System.out.println(chValue1+ " : "+(int)chValue1);
         System.out.println(chValue2+" : "+(int)chValue2);
+        scanner.close();
     }
 }
