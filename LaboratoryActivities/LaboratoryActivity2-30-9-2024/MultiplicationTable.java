@@ -10,13 +10,13 @@ class MultiplicationTable {
         size = in.nextInt();
 
         //populate matrix
-        matrix = GenMatrix(size);
+        matrix = genMatrix(size);
 
         printMatrix(matrix, size);
         in.close();
     }
 
-    private static int[][] GenMatrix(int size) {
+    private static int[][] genMatrix(int size) {
         int[][] matrix = new int[size][size];
         for (int i = 1; i <= size; i++) {
             matrix[i-1][0] = i;
