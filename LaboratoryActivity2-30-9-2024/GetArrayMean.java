@@ -24,6 +24,7 @@ class GetArrayMean {
         }
         avg  = ((float)sum / (float)size);
         System.out.printf("mean of the array is: %.2f", avg);
+        System.out.println();
         in.close();
         
     }
