@@ -32,7 +32,7 @@ public class Car {
     @Override
     public String toString() {
         String sizeVal = size == 'L' ? "large" : size == 'M' ? "medium" : size == 'S' ? "small" : "N/A";
-        String val = "Car (" + color + ") - P" + price + " - " + sizeVal;
+        String val = "Car (" + color + ") - P" + String.format("%.2f",price) + " - " + sizeVal;
         return val;
     }
 }
