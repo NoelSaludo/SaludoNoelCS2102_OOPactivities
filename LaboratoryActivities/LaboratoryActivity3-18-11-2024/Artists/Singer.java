@@ -3,7 +3,8 @@ enum Genre {
     ROCK,
     CLASSICAL,
     JAZZ,
-    HIPHOP
+    HIPHOP,
+    RNB
 }
 
 class Singer extends Artist {
